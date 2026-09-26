@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4 - Comparación CSS</title>
+    
+    <style>
+        * {
+            color: green; 
+        }
+        
+        a:link {
+            color: gray; 
+        }
+        
+        a:visited {
+            color: blue; 
+        }
+        
+        a:hover {
+            color: fuchsia; 
+        }
+        
+        a:active {
+            color: red; 
+        }
+        
+        p {
+            font-family: arial, helvetica;
+            font-size: 10px;
+            color: black; 
+        }
+        
+        .contenido {
+            font-size: 14px;
+            font-weight: bold; 
+        }
+
+        .caja-simulador {
+            border: 2px dashed #999;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #f9f9f9;
+        }
+        h2 { font-family: sans-serif; color: black; } /* Para que los títulos no se vean verdes */
+    </style>
+</head>
+<body>
+
+    <h2>Código 1 (Cuadro Izquierdo)</h2>
+    <div class="caja-simulador">
+        
+        <p class="contenido" style="font-weight: normal;">
+            Este es un texto ...............
+        </p>
+        
+        <table>
+            <tr>
+                <td>Y esta es una tabla.......</td>
+            </tr>
+            <tr>
+                <td><a href="http://www.google.com.ar" target="_blank">con un enlace</a></td>
+            </tr>
+        </table>
+        
+    </div>
+
+    <h2>Código 2 (Cuadro Derecho)</h2>
+    <div class="caja-simulador contenido">
+        
+        <p> Este es un texto................</p>
+        
+        <table>
+            <tr>
+                <td>Y esta es una tabla.......</td>
+            </tr>
+            <tr>
+                <td><a href="http://www.google.com.ar" target="_blank">con un enlace</a></td>
+            </tr>
+        </table>
+        
+    </div>
+
+</body>
+</html>
