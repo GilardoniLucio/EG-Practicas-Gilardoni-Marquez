@@ -1,7 +1,7 @@
 
 <?php
 $dest = "matiastmarquez@gmail.com";
-$asunto = "Mensaje de prueba con formato HTML";
+$asunto = "Mensaje de prueba";
 
 $headersmail = "MIME-Version: 1.0\r\n";
 $headersmail .= "Content-type: text/html; charset=utf-8\r\n";
