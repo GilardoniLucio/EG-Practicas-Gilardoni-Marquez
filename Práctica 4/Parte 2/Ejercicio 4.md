@@ -24,7 +24,7 @@ return true;
 
 ## Respuesta
 Esta función toma un parámetro, que se espera que sea de tipo `string`.
-Comprueba que tenga más de 3 caracteres, pero no más de 19. Si no satisface esta condición, muestra un mensaje notificando al usuario y devuelve `false`.
+Comprueba que tenga más de 3 caracteres, pero no más de 20. Si no satisface esta condición, muestra un mensaje notificando al usuario y devuelve `false`.
 Si pasa esta verificación, luego se comprueba que todos sus caracteres estén dentro de la lista de caracteres aceptados. Si alguno de ellos no está en la lista, se muestra un mensaje notificando al usuario y devuelve `false`.
 Pasadas estas verificaciones, se emite un mensaje de exíto y devuelve `true`.
 
