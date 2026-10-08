@@ -22,7 +22,7 @@ echo "</table>\n";
 </body></html>
 ```
 ### Respuesta
-El código se utiliza para construir una tabla vacía de cinco filas y dos columnas, que ocupa el 90% del ancho de la vista.
+El código se utiliza para construir una tabla vacía de cinco filas y dos columnas, que ocupa el 90% del ancho de la vista, y tiene un espacio en blanco dentro de cada celda.
 
 
 ## b)

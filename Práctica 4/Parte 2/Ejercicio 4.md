@@ -29,7 +29,7 @@ Si pasa esta verificación, luego se comprueba que todos sus caracteres estén d
 Pasadas estas verificaciones, se emite un mensaje de exíto y devuelve `true`.
 
 ## Script
-Habiendo copiado el código al archivo `ejercicio4.php`, el script queda:
+Habiendo copiado el código del enunciado a un archivo `ejercicio4.php` en la misma carpeta, el script queda:
 ```php-template
 <html>
 <head></head>

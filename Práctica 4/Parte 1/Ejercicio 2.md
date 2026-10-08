@@ -1,7 +1,7 @@
-## Ejercicio 2
+# Ejercicio 2
 **Indicar si los siguientes códigos son equivalentes.**
 
-### a)
+## a)
 
 ```php
 // 1
@@ -34,9 +34,7 @@ Si son equivalentes. Los tres bloques imprimen los números del 1 al 10.
 *   El segundo hace lo mismo usando la sintaxis alternativa de PHP (`while: ... endwhile;`).
 *   El tercero usa un `do-while`, iniciando en 0 pero utilizando un pre-incremento (`++$i`). Esto hace que el primer valor impreso sea 1, cortando cuando `$i` deja de ser menor a 10 (imprimiendo el 10 como último valor).
 
----
-
-### b)
+## b)
 
 ```php
 // 1
@@ -78,9 +76,8 @@ Si son lógicamente equivalentes. Las cuatro opciones son distintas formas de us
 *   En el segundo y tercer caso se omiten parámetros en la declaración del `for` (la condición y/o el incremento). Esto se compensa manejándolos manualmente dentro del bloque mediante un `if` y un `break` para salir.
 *   En el cuarto caso se utiliza una instrucción vacía (por el `;` final). Toda la acción ocurre en la zona de incremento del `for`, PHP primero evalúa la expresión de la izquierda (`print $i`) y luego ejecuta el incremento a la derecha (`$i++`), logrando el mismo resultado en una sola línea.
 
----
 
-### c)
+## c)
 
 ```php
 // 1
