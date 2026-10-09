@@ -1,6 +1,6 @@
 
 <?php
-$dest = "matiastmarquez@gmail.com";
+$dest = "matiastmarquez@ejemplo.com";
 $asunto = "Mensaje de prueba";
 
 $headersmail = "MIME-Version: 1.0\r\n";
@@ -13,7 +13,7 @@ $cuerpomail = "
     <title>Prueba de correo HTML</title>
 </head>
 <body>
-    <h1 style='color: blue;'>ola!</h1>
+    <h1 style='color: blue;'>Hola!</h1>
     <p>Este es un correo de prueba enviado desde PHP.</p>
 </body>
 </html>
