@@ -1,0 +1,13 @@
+.cabecera {
+    background-color: #2e4053;
+    height: 100px;
+}
+
+.lateral {
+    background-color: #f1c40f;
+}
+
+.bloque-inferior {
+    background-color: #20282e;
+    height: 150px;
+}
