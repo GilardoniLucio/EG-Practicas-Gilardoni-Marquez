@@ -1,0 +1,17 @@
+.contenedor {
+    background-color: #902a96; 
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.caja1 {
+    background-color: #f07211;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.caja2 {
+    background-color: #6b0d0b;
+    height: 100px;
+    margin-bottom: 20px;
+}
